@@ -2,7 +2,7 @@
 
 Установить composer.json, добавить в composer.json блок
 "repositories":{
-        "type":"vcr",
+        "type":"vcs",
         "url":"https://github.com/anavadit/channels.git"
     }
 если его нет,
