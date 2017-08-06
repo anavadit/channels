@@ -1,0 +1,12 @@
+<h4>Подписные каналы</h4>
+<form method="post" action="/channels/save">
+<input type="hidden" name="_token" value="{{ _token }}">
+{% for channel in all_channels %}
+  <div class="checkbox">
+    <label>
+      <input {% if channel.id in user_channels %}checked="checked"{% endif %} type="checkbox" name="channels[]" value="{{ channel.id }}" /> {{ channel.id }}
+    </label>
+  </div>
+{% endfor %}
+<button type="submit" class="btn btn-default">Сохранить</button>
+</form>

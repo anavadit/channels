@@ -1,0 +1,16 @@
+{
+    "name": "rina/channels",
+    "description": "Add subscription channels functionality to user page",
+    "require": {
+        "twig/twig": "^2.0"
+    },
+    "autoload": {
+		"psr-4": {
+			"Rina\\Channels\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+    "minimum-stability": "stable"
+}
