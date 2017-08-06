@@ -27,3 +27,4 @@ php artisan migrate
 для вызова хелпера, который подключает блок с чекбоксами.
 
 
+![Alt text](example_front.jpg?raw=true "Example")
